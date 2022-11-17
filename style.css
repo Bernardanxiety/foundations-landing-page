@@ -167,3 +167,34 @@ header .wrapper {
   flex-direction: column;
   gap: 1em;
 }
+
+/* footer */
+
+footer .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--hero-main);
+}
+
+/* medias */
+
+@media (min-width: 700px) {
+  body {
+    font-size: 2.5vw;
+  }
+
+  /* header */
+  .nav {
+    flex-direction: row;
+  }
+
+  .section-one .wrapper {
+    flex-direction: row;
+    min-height: 200px;
+  }
+
+  .section-one_image {
+    flex-basis: 100%;
+  }
+}
