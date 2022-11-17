@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap");
+
+:root {
+  --clr-dark: #1f2937;
+  --hero-main: #f9faf8;
+  --clr-light: #e5e7eb;
+  --light-blue: #3882f6;
+
+  --font-smaller: 1.8rem;
+  --font-small: 2.4rem;
+  --font-big: 3.6rem;
+  --font-bigger: 4.8rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 4.5vw;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header,
+section,
+footer {
+  padding: 2rem 1.5rem;
+}
+
+/* helper classes */
+.bg-gray {
+  background-color: var(--clr-dark);
+}
+
+.spacer > *:not(:first-child) {
+  margin-top: var(--margin, 1em);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  color: var(--hero-main);
+  text-decoration: none;
+}
+
+/* header */
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: var(--hero-main);
+}
+
+.logo {
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* section one */
+.section-one_info {
+  color: var(--hero-main);
+}
+
+.section-one .wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  gap: 2rem;
+}
+
+.section-one_image {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-light);
+}
+
+/* section two */
