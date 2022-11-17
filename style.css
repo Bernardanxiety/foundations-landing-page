@@ -57,6 +57,23 @@ footer {
   display: inline-block;
   color: var(--hero-main);
   text-decoration: none;
+  padding: 0.3em 1.5em;
+  border-radius: 5px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.section-one .btn {
+  background-color: var(--light-blue);
+}
+
+.cta .btn {
+  outline: 2px solid var(--hero-main);
+  align-self: flex-start;
 }
 
 .gray {
@@ -116,10 +133,37 @@ header .wrapper {
 .card_box {
   padding: 4rem;
   border: 2px solid var(--light-blue);
+  border-radius: 10px;
 }
 
 .card {
   --margin: 0.5em;
 
   width: 60%;
+}
+
+/* section three */
+.bg-light {
+  background-color: var(--clr-light);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+.column span {
+  align-self: flex-end;
+}
+
+/* section four */
+.cta {
+  color: var(--hero-main);
+  background-color: var(--light-blue);
+  padding: 1.5rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
