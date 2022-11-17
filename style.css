@@ -12,6 +12,10 @@
   --font-bigger: 4.8rem;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -196,5 +200,31 @@ footer .wrapper {
 
   .section-one_image {
     flex-basis: 100%;
+  }
+
+  /* section two */
+  .section-two .wrapper,
+  .section-three .wrapper {
+    max-width: 70%;
+  }
+
+  .flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1;
+  }
+
+  /* section four */
+  .cta {
+    flex-direction: row;
+    justify-content: space-between;
+    --margin: 0.25em;
+  }
+
+  .cta .btn {
+    align-self: center;
   }
 }
