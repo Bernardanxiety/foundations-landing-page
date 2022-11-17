@@ -59,6 +59,10 @@ footer {
   text-decoration: none;
 }
 
+.gray {
+  color: var(--clr-dark);
+}
+
 /* header */
 header .wrapper {
   display: flex;
@@ -97,3 +101,25 @@ header .wrapper {
 }
 
 /* section two */
+.section-two .wrapper {
+  text-align: center;
+}
+
+.flex-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card_box {
+  padding: 4rem;
+  border: 2px solid var(--light-blue);
+}
+
+.card {
+  --margin: 0.5em;
+
+  width: 60%;
+}
