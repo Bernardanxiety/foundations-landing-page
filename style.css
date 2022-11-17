@@ -52,7 +52,7 @@ footer {
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -226,5 +226,34 @@ footer .wrapper {
 
   .cta .btn {
     align-self: center;
+  }
+
+  @media (min-width: 1000px) {
+    body {
+      font-size: 1.2vw;
+    }
+
+    section {
+      padding: 6rem 0;
+    }
+
+    .section-two .flex-container {
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 5rem;
+    }
+
+    .section-three .wrapper {
+      max-width: 50%;
+    }
+
+    .card_box {
+      padding: 5rem 0;
+    }
+
+    .cta {
+      padding: 5rem 10rem;
+    }
   }
 }
